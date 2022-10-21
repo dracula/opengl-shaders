@@ -1,26 +1,36 @@
-# Dracula for [Foobar](https://foobar.com)
+# Dracula for [OpenGL Shaders](https://learnopengl.com/Getting-started/Shaders)
 
-> A dark theme for [Foobar](https://foobar.com).
-
-![Screenshot](./screenshot.png)
+> A dark theme for [OpenGL Shaders](https://learnopengl.com/Getting-started/Shaders) written in GLSL.
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/foobar).
+Copy/Paste in a `dracula.glsl` file and include it in your project.
+
+```glsl
+vec3 RED = vec3(0.99609375, 0.58203125, 0.5);
+vec3 ORANGE = vec3(0.99609375, 0.7890625, 0.5);
+vec3 GREEN = vec3(0.5390625, 0.99609375, 0.5);
+vec3 YELLOW = vec3(0.99609375, 0.99609375, 0.5);
+vec3 CYAN = vec3(0.5, 0.99609375, 0.9140625);
+vec3 PINK = vec3(0.99609375, 0.5, 0.74609375);
+vec3 PURPLE = vec3(0.58203125, 0.5, 0.99609375);
+vec3 BLACK = vec3(0.1328125, 0.12890625, 0.171875);
+vec3 WHITE = vec3(0.96875, 0.96875, 0.9453125);
+```
+
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/ericjeker/dracula-shader/graphs/contributors).
 
-| [![Zeno Rocha](https://github.com/zenorocha.png?size=100)](https://github.com/zenorocha) |
+| [![Eric Jeker](https://github.com/ericjeker.png?size=100)](https://github.com/ericjeker) |
 | ---------------------------------------------------------------------------------------- |
-| [Zeno Rocha](https://github.com/zenorocha)                                               |
+| [Eric Jeker](https://github.com/ericjeker)                                               |
 
 ## Community
 
-- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+- [GitHub](https://github.com/ericjeker/dracula-shader/discussions) - Best for asking questions and discussing issues.
+- [Learn about Shaders](https://thebookofshaders.com) - The Book of Shaders
 
 ## License
 
